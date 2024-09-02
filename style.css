@@ -33,6 +33,11 @@ body{
     background-color: #dadada;
 }
 
+.nav .navigation-icons img{
+    border-radius: 50px;
+    height: 30px;
+}
+
 .search-section{
     display: flex;
     align-items: center;
@@ -92,6 +97,8 @@ body{
     color: #606060;
     margin-right: 10px;
 }
+
+
 /* navbar section */
 
 /* body area */
@@ -131,6 +138,12 @@ font-weight: 400;
 cursor: pointer;
 }
 
+.category img{
+    border-radius: 50%;
+    height: 24px;
+    margin-right: 24px;
+}
+
 .category:hover{
     background: #e6e6e6;
 }
@@ -141,7 +154,7 @@ cursor: pointer;
 }
 
 .active i{
-    color: red;
+    font-weight: 800;
 }
 
 .category i{
@@ -185,10 +198,10 @@ cursor: pointer;
     flex-wrap: wrap;
 }
 .video {
-    width: calc(25%-10px);
+    width: calc(25% - 12px);
     margin-right: 12px;
-    margin-bottom: 35px;
     cursor: pointer;
+    margin-bottom: 35px;
 }
 .video .thumbnail img {
     width: 100%;
@@ -198,21 +211,25 @@ cursor: pointer;
     margin-top: 5px;
     width: 90%;
 }
-.video .profile{
-    margin-right: 15px;
+.video .profile {
+    margin-right: 12px;
 }
 .video .profile img {
     border-radius: 50%;
     width: 36px;
     height: 36px;
 }
-
-.video .video-details p{ 
+.video .video-detail p {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
 }
-.video .posted-by{
+.video-detail p a{ 
+    text-decoration: none;
+    color: black;
+    
+}
+.video .posted-by {
     font-size: 14px;
     font-weight: 500;
     color: #606060;
